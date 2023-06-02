@@ -39,7 +39,7 @@ main{
     width: 320px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-image: url(/imagens/foto-IA.jpg);
+    background-image: url(../imagens/foto-IA.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
