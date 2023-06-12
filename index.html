@@ -21,21 +21,19 @@
                 </p>
                 <i class="material-icons"></i>
                 <div class="caixa">
-                    <label for="iemail"><i id="icon" class="material-icons">account_circle</i></label>
-                    <input type="email" name="email" id="iemail" placeholder="seu email" autocomplete="email" required>
+                    <label for="iemail"><i id="icon" class="material-icons">person</i></label>
+                    <input type="email" name="email" id="iemail" placeholder="seu email" autocomplete="email" required maxlength="30">
                 </div>
 
                 <div class="caixa">
                     <label for="isenha"><i id="icon" class="material-icons">vpn_key</i></label>
-                    <input type="password" name="senha" id="isenha" placeholder="sua senha" required>
+                    <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8" maxlength="20">
                 </div>
 
-                <div class="botoes">
-                    <input type="submit" value="Entrar">
-                </div>
-                <div class="botoes">
-                    <input type="submit" value="Esqueci a senha">
-                </div>
+                <input class="botao" type="submit" value="Entrar">
+                <a href="esqueci.html">
+                    Esqueci a senha <i class="material-icons">mail</i>
+                </a>
             </form>
         </section>
     </main>
