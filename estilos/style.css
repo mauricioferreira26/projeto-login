@@ -16,7 +16,7 @@ html, body{
 
 body{
     position: relative;
-    background-color: rgb(86, 29, 140);
+    background-color: #1561c5;
 }
 
 main{
@@ -24,35 +24,40 @@ main{
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
+
     background-color: white;
-    width: 320px;
-    height: 600px;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 2px 10px rgb(30, 2, 56);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.561);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem{
-    height: 230px;
+    display: block;
+    height: 200px;
     width: 320px;
-    background: rgb(86, 29, 140) url(../imagens/ia.jpg);
+    background:#5f2c82 url(../imagens/ia.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
 }
 
 #formulario{
+    display: block;
     padding: 10px;
 }
 
 #formulario h1{
     font-weight: 800;
     text-align: center;
-    padding: 10px;
 }
 
 #formulario p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
 }
 
@@ -60,33 +65,34 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(86, 29, 140);
-    height: 50px;
+    background-color: #5593e4;
+    height: 35px;
     margin-bottom: 5px;
     border-radius: 10px;
 }
 
 #icon{
     color: white;
-    padding: 10px;
+    padding: 2px;
+    
 }
 
 .caixa > input{
     padding: 5px;
-    height: 45px;
-    width: 250px;
+    height: 30px;
+    width: 200px;
     border-radius: 10px;
     font-size: 18px;
 }
 
 .botoes > input{
-    height: 35px;
-    width: 300px;
+    height: 27px;
+    width: 230px;
     margin-bottom: 5px;
     border-radius: 10px;
     font-size: 16px;
     background-color: skyblue;
-    color: rgb(86, 29, 140);
+    color: #5f2c82;
 }
 
 .botoes > input:hover{
