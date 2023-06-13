@@ -61,7 +61,7 @@ main{
 }
 
 .caixa{
-    display: block;
+    display: flex;
     background-color: #5593e4;
     height: 35px;
     margin-bottom: 5px;
@@ -78,13 +78,11 @@ main{
 
 .caixa > input{
     height: 100%;
-    width: calc(100% - 45px);
+    width: calc(100% - 40px);
     font-size: 1em;
     border: none;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-14px);
-    
 }
 
 
